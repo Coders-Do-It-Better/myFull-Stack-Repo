@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy&display=swap'); */
 * {
   margin:0px;
   padding:0px;
@@ -15,16 +15,17 @@ body {
 }
 
 #title {
+  
   text-align: center;
   font-size: 50px;
   font-family: "Bowlby One SC", cursive;
   padding-top: 15px;
   letter-spacing: 5px;
-  font-family: 'Bowlby One', cursive;
+
 }
 span {
   color: red;
-  font-family: 'Bowlby One', cursive;
+  
   
 }
 #description {
@@ -32,7 +33,6 @@ span {
   font-size: 23px;
   font-family: "Sorts Mill Goudy", sans-serif;
   margin-bottom: 15px;
-  font-family: 'Sorts Mill Goudy', serif;
 }
 #survey-form {
   width: 500px;
