@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    
+</head>
+<body>
+    <form action="result1.html" method="GET" name="myform">
+        <div>
+            <label for="cars" >Choose a car : </label>
+            <br>
+            <select name="carlar" id="cars" multiple>
+                <option value="disabled selected value">choose</option>
+                <option value="Porsche">Porsche</option>
+                <option value="Maserati">Maserati</option>
+                <option value="BMW">BMW</option>
+                <option value="Tesla">Tesla</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="message">Enter Comment here:</label>
+            <br>
+            <textarea name="messagelar" id="message" style="width:200px; height: 200px;" maxlength="50" placeholder="Enter text here"></textarea>
+        </div>
+        <div>
+            <label for="browsers">Browsers:</label>
+            <input type="text" list="browsers" name="optionlar">
+            <datalist id="browsers" >
+                <option value="Firefox"></option>
+                <option value="Chrome"></option>
+                <option value="Safari"></option>
+                <option value="Opera"></option>
+                <option value="IE"></option>
+            </datalist>
+        </div>
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>

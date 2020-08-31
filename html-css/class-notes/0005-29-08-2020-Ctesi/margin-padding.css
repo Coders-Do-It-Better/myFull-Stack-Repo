@@ -1,0 +1,39 @@
+body {
+    background-color: #060f4d;
+    color: aqua;
+}
+p.demo-box{
+    text-align: right;
+}
+.demo-box {
+    background-color: white;
+    
+    width: 60%;
+    margin: 100px auto;
+    border-top: 15px solid red;
+   
+    max-height: 800px;
+    padding-top: 1px;
+    text-align: center;
+    color: aquamarine;
+    font-size: xx-large;
+    background-image: url("https://picsum.photos/id/684/600/400");
+    background-attachment: fixed;
+    
+}
+.one {
+    background-color: rgba(255, 0, 0, 0.37);
+    height: 50px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    font-size: medium;
+}
+.two {
+    background-color: #00ff006c;
+    height: 100px;
+    margin: 10px 0px;
+}
+.three {
+    background-color: #0000ff59;
+    height: 50px;
+}

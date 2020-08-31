@@ -1,0 +1,15 @@
+em
+Üst elementin font boyutuna göre hareket eder ve M harfinin genişliğini ölçü için referans alır.
+Örnek: font-size: 12px olan bir div nesnesi içerisindeki p etiketine font-size: 2em verirseniz, p etiketi 24px lik bir font boyutuna sahip olur.
+
+rem
+Root em olarak düşünebilirsiniz. em birimiyle aynı mantıkta çalışır. Tek farkı rem birimi <html> etiketini baz alarak çalışır.
+Örnek: html etiketinin font-size değeri 12px olsun. h1 etiketine 2rem, h2 etiketine 1.5rem verirseniz. h1 etiketinin font-size değeri 24px olur, h2 etiketinin ise 18px olur.
+
+vw
+Viewport width. Pencerenin genişliğini % olarak baz alır.
+Örneğin 1vw = tarayıcı penceresinin genişliğinin yüzde 1’i anlamına gelir. Aynı şekilde 50vw = tarayıcı penceresinin genişliğinin yüzde 50’si.
+
+vh
+Viewport height. vw biriminde olduğu gibi buda pencerenin yüksekliğini baz alır.
+Örneğin 1vh = tarayıcı penceresinin yüksekliğinin yüzde 1’i. 50vh = tarayıcı penceresinin yüksekliğinin yüzde 50’sidir.
