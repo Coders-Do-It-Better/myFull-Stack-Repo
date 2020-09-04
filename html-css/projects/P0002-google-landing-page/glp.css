@@ -1,0 +1,99 @@
+li{
+    list-style-type:none;
+}
+
+body{
+    margin: 0;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 5;
+    height: 100vh;
+}
+
+.header{
+    background-color: antiquewhite;
+    display:flex;
+    justify-content: space-between;
+    
+    
+    
+}
+.nav-left{
+    background-color: rgb(75, 84, 99);
+    width: 10%;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-flow: row wrap;
+    
+    
+}
+.nav-right{
+    background-color: rgb(75, 84, 99);
+    display: flex;
+    width: 20%;
+    /* align-items: center; */
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.section{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80%;  
+}
+
+.search-box{
+    /* position: relative;
+    background-color: black;
+    
+    
+} */
+#searchbar{
+    font-size: xx-large;
+    border-radius: 4px;
+    width: 10%;
+    color: brown;
+
+}
+.button-box{
+    background-color: blueviolet;
+    display: contents;
+}
+
+
+
+.footer{
+    background-color: antiquewhite;
+}
+
+.footer1{
+    display: flex;
+    align-items: center;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.footer2-nav-left{
+    background-color: bisque;
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.footer2-nav-right{
+    background-color: bisque;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
