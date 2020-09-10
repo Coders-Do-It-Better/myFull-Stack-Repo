@@ -1,0 +1,67 @@
+html{
+    height:100%;
+    margin:0px;
+    padding: 0px;
+    font-size:16px;
+    font-family: "Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666666;
+}
+
+.backimg{
+    min-height: 100%;
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.parallax-backimg1{
+    background-image: url("./img/Image1.jpg");
+    
+}
+
+.parallax-backimg2{
+    background-image: url("./img/Image2.jpg");
+
+
+}
+.parallax-backimg3{
+    background-image: url("./img/Image3.jpg");
+    
+
+}
+.parallax-backimg4{
+    background-image: url("./img/Image3.jpg");
+    
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: #f9f9f9;
+    font-size: 2rem;
+    letter-spacing: 8px;
+    text-align: center;
+    /* background-color: black;
+    border: 2px solid red; */
+    
+}
+#border{
+    background-color: #595959;
+    padding: 20px;
+}
+
+.parallax-text-dark{
+    padding: 50px 80px;
+    background-color: #282e34;
+    text-align: center; 
+    
+}
+
+.parallax-text-light{
+    padding: 50px 80px;
+    background-color: #f4f4f4;
+    text-align: center; 
+}

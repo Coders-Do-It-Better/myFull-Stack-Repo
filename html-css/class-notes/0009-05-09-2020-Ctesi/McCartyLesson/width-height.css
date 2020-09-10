@@ -1,0 +1,51 @@
+body {
+    background-color: #eeeeee;
+}
+#main-content {
+    background-color: #ffffff;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 2%;
+}
+.auto-width {
+    width: auto;
+    height: auto;
+    background-color: aqua;
+    border: 2px solid black;
+    outline: 2px dotted blue;
+    outline-offset: -4px;
+}
+.length-width {
+    width: 50px;
+    height: 50px;
+    background-color: bisque;
+}
+.percentage-width {
+    width: 80%;
+    height: 10%;
+    background-color: blueviolet;
+}
+.initial-width {
+    width: initial;
+    height: initial;
+    background-color: lightcoral;
+}
+.inherit-width {
+    width: inherit;
+    height: inherit;
+    background-color: lightseagreen;
+}
+.max-width {
+    max-width: 350px;
+    min-width: 100px;
+    background-color: magenta;
+}
+.max-height{
+    max-width: 30%;
+    max-height: 100px;
+    min-height: 30px;
+    background-color: aqua;
+    overflow: auto;
+
+}

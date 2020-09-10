@@ -1,0 +1,22 @@
+.container{
+    font-family: sans-serif;
+    color: white;
+    margin: 0 auto;
+    padding: 20px;
+    width: 1000px;
+    height: 200vh;
+    border: 3px solid red;
+    display: grid;
+    grid-gap: 20px ;
+    grid-template-columns: repeat(3,1fr)200px;
+    grid-template-rows: 1fr 2fr 4fr 1fr;
+    
+    >*{
+        background-color: royalblue;
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+.main-content{
+    grid-area: 3/1/4/4;
+}

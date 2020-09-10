@@ -1,0 +1,25 @@
+.container{
+    display: grid;
+    border: 3px solid blue;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(3, 1fr);
+    
+    
+    gap: 5px;
+    padding: 2px;
+}
+
+#header,
+#main,
+#footer{
+    border: 5px solid red;
+}
+
+#header>div{
+    display: grid;
+    border: 1px solid black;
+    /* grid-template-columns: repeat(6,1fr); */
+    /* gap: 5px; */
+
+}
+

@@ -1,0 +1,45 @@
+.container{
+    border: 3px solid red;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 50px auto 50px;
+    gap: 15px;
+    grid-template-areas:
+        "navbar navbar navbar"
+        "sidebar main main"
+        "sidebar main main"
+        "sidebar main main"
+        "icon icon icon"
+        "footer footer footer";   
+}
+
+.item{
+    border: 2px solid blue ;
+}
+
+#item1{
+    grid-area: navbar;
+
+}
+
+#item2{
+grid-area: sidebar;
+}
+
+#item3{
+    grid-area: main;
+
+
+}
+#item4{
+    grid-area: footer;
+
+}
+
+#item5{
+
+}
+
+#item6{
+
+}

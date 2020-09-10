@@ -1,0 +1,33 @@
+.navbar__logo {
+    width: 150px;
+    height: 30px;
+    background: #c4c4c4;
+  }
+
+li{
+  list-style-type: circle;
+}
+  
+
+.container {
+  // background-color:red;
+  // display: flex;
+
+  &__button--small {
+    color: yellow;
+  }
+
+  &__button--large {
+    color: red;
+  } 
+  §__
+
+  &__button {
+    &--small {
+      color: pink;
+    }
+    &--large {
+      color: red;
+    }
+  }
+}

@@ -1,0 +1,84 @@
+header {
+  width: 100%;
+  height: 10%;
+  background-color: #a09a9b;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-transform: capitalize;
+  font-size: 0.25rem;
+  border-bottom: 1px solid white;
+}
+
+.navbar-right {
+  color: white;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 15%;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar-right #register {
+  color: red;
+}
+
+.navbar-left {
+  background-image: url("../images/maxresdefault.jpg");
+  background-size: cover;
+  color: #eeeeee;
+  border: 1px solid gray;
+  display: flex;
+  width: 7%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main {
+  background-size: cover;
+  background-blend-mode: mutiply;
+  background-color: #a09a9b;
+  display: grid;
+  grid-template-rows: 3fr 7fr;
+  grid-area: "title" "advantages";
+  height: 90%;
+  justify-items: center;
+}
+main .title {
+  font-family: "Modak", cursive;
+  font-size: 1rem;
+  color: #ffffff;
+  text-transform: uppercase;
+  width: auto;
+  justify-self: center;
+  align-self: center;
+}
+main .advantages {
+  background-color: #eeeeee;
+  border: 3px solid black;
+  width: 385px;
+  height: max-content;
+  justify-self: flex-end;
+  margin-right: 30px;
+  border-radius: 20px;
+  font-size: 32px;
+  line-height: 2em;
+  padding: 0.5em;
+  list-style-type: circle;
+  list-style-position: inside;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 70px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

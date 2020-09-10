@@ -1,0 +1,43 @@
+main{
+    // background-image: url(../images/alesiakazantceva.jpg);
+    background-size: cover;
+    background-blend-mode: mutiply;
+    // align-content: stretch ;
+    background-color: #a09a9b;
+    display: grid;
+    grid-template-rows: 3fr 7fr;
+    grid-area: "title" "advantages";
+    // border: 2px solid blue;
+    height: 90%;
+    justify-items: center;
+    .title{
+        font-family: 'Modak', cursive;
+        font-size:1rem;
+        color: #ffffff;
+        text-transform: uppercase;
+        width: auto;
+        // background-color: red;
+        // text-align: center;
+        // border: 2px solid yellow;
+        justify-self: center;
+        align-self: center;
+       
+    }
+    .advantages{
+        
+        background-color: #eeeeee;
+        border: 3px solid black;
+        width: 385px;
+        height: max-content;
+        justify-self: flex-end;
+        margin-right: 30px;
+        border-radius: 20px;
+        font-size: 32px;
+        line-height: 2em ;
+        padding: 0.5em;
+        list-style-type: circle;
+        list-style-position: inside;
+
+
+    }
+}
